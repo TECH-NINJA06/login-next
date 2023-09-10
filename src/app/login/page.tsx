@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import {useRouter} from "next/navigation";
-import {axios} from "axios";
+import axios from "axios";
 
 
 
@@ -18,7 +18,7 @@ export default function LoginPage() {
     }
 
     return(
-        <div className="flex justify-center items-center flex-col min-h-screen py-2 bg-slate-700">
+        <div className="flex justify-center items-center flex-col min-h-screen py-2 bg-slate-700 text-white">
            <h1>Login</h1>
            <hr />
            
