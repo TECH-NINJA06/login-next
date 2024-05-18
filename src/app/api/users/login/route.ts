@@ -10,8 +10,7 @@ connect()
 export default async function POST(request: NextRequest,) {
     try {
         const reqBody = await request.json()
-        const { email, password } = reqBody;
-        console.log(reqBody);
+        const { email, password } = reqBody
 
         // Check if user exists
         const user = await User.findOne({email});
